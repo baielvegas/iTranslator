@@ -22,6 +22,8 @@
 		52212A8221B68EF0008C2D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52212A8521B68EF0008C2D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52212A8721B68EF0008C2D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52212A9221B691EE008C2D60 /* united-kingdom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "united-kingdom.png"; sourceTree = "<group>"; };
+		52212A9321B691F0008C2D60 /* russia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = russia.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				52212A7B21B68EEE008C2D60 /* AppDelegate.swift */,
+				52212A9121B691E6008C2D60 /* Images */,
 				52212A7D21B68EEE008C2D60 /* ViewController.swift */,
 				52212A7F21B68EEE008C2D60 /* Main.storyboard */,
 				52212A8221B68EF0008C2D60 /* Assets.xcassets */,
@@ -62,6 +65,15 @@
 				52212A8721B68EF0008C2D60 /* Info.plist */,
 			);
 			path = iTranslator;
+			sourceTree = "<group>";
+		};
+		52212A9121B691E6008C2D60 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				52212A9321B691F0008C2D60 /* russia.png */,
+				52212A9221B691EE008C2D60 /* united-kingdom.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
